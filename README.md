@@ -16,7 +16,11 @@
 
 ```bash
 # Clone the repository
+<<<<<<< HEAD
 git clone https://github.com/joseph-redmond/atomic-turtle
+=======
+git clone https://github.com/joseph-redmond/atomic-turtle.git
+>>>>>>> 3581a5fc1829c9039ed45ef9afd3f1b246e9fc14
 
 # Navigate to the project directory
 cd atomic-turtle
