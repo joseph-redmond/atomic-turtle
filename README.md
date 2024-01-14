@@ -35,7 +35,7 @@ bash
 
 Copy code
 ```
-npx ./atomic-turtle --path /your/destination/path --type js
+adt.exe --path /your/destination/path --type skeleton
 ```
 Replace /your/destination/path with the desired destination path and choose the appropriate --type option (e.g., skeleton).
 
