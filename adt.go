@@ -50,10 +50,13 @@ func validateInputs() error {
 }
 
 func copyFiles() error {
-	scriptDirectory, err := os.Getwd()
+	//scriptDirectory, err := os.Executable();
+	executable, err := os.Executable()
 	if err != nil {
 		return err
 	}
+
+	scriptDirectory := filepath.Dir(executable)
 
 	sourcePath := filepath.Join(scriptDirectory, "components", atomicDesignType)
 	destinationPath := filepath.Join(destinationPath, "components")
